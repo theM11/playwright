@@ -1,0 +1,1 @@
+export const MAIN_PAGE_LINK = "https://www.veeam.com/"
