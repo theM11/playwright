@@ -3,7 +3,7 @@ import { VeeamMainPageObject } from "./PageObjectModel/veeam-main-page"
 
 
 test.describe('veeam test', ()=>{
-    test("test veeam page", async ({page})=>{
+    test("login to veeam R&D forum", async ({page})=>{
         const veeamHomePage = new VeeamMainPageObject(page)
         await veeamHomePage.goto()
         await veeamHomePage.topNavigationSupport()
